@@ -1,4 +1,4 @@
-baseurl      = "localhost"
+baseurl      = "0x4.dev"
 title        = "cooties@blog"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
