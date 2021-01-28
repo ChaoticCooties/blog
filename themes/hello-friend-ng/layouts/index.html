@@ -1,0 +1,39 @@
+{{ define "body" }}
+    <body class="{{ if ne $.Site.Params.defaultTheme "light" -}} dark-theme {{- end -}} {{ if .Site.Params.background_image }} background-image" style="background-image: url('{{ .Site.Params.backgroundImage }}');" {{ else }}"{{ end }}>
+{{ end }}
+
+{{ define "main" }}
+    {{ $paginator := .Paginate .Site.RegularPages }}
+
+    <main class="posts">
+        <h1>#Writeups</h1>
+
+        {{ if .Content }}
+            <div class="content">{{ .Content }}</div>
+        {{ end }}
+
+        {{ range (where $paginator.Pages "Params.unlisted" "ne" "true").GroupByDate "2006"}}
+            <div class="posts-group">
+                <div class="post-year">{{ .Key }}</div>
+
+                <ul class="posts-list">
+                    {{ range .Pages }}
+                        <li class="post-item">
+                            <a href="{{.Permalink}}">
+                                <span class="post-title">{{.Title}}</span>
+                                <span class="post-day">
+                                    {{ if .Site.Params.dateformShort }}
+                                        {{ .Date.Format .Site.Params.dateformShort }}
+                                    {{ else }}
+                                        {{ .Date.Format "Jan 2"}}
+                                    {{ end }}
+                                </span>
+                            </a>
+                        </li>
+                    {{ end }}
+                </ul>
+            </div>
+        {{ end }}
+    {{ partial "pagination.html" . }}
+    </main>
+{{ end }}
