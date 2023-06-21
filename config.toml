@@ -1,4 +1,4 @@
-baseurl      = "https://0x4.dev/"
+baseurl      = "https://cooties.io/"
 title        = "cooties@blog"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
@@ -40,7 +40,7 @@ paginate     = 10
   [languages.en]
     title = "Blog"
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    keywords = "blog, cybersecurity, programming, photography, eujoe, cooties, chegne"
+    keywords = "blog, cybersecurity, programming, photography, eujoe, cooties, chegne, AI, joe, ML, Safety"
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
@@ -56,4 +56,5 @@ paginate     = 10
   [[menu.main]]
     identifier = "about"
     name       = "about"
-    url        = "/about"
+    url        = "/about
+

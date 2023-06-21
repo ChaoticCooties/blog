@@ -1,43 +1,39 @@
 +++
 title = "#About"
 description = "About page" 
-aliases = ["about-us","about-hugo"]
+aliases = ["about-us"]
 author = "Chegne Eu Joe"
 unlisted = true
 +++
 
-> For any enquiries, please contact me through my [e-mail](mailto:joe+jobs@cooties.io). I'm looking for interesting research opportunities/jobs as well.
-
-* Name : Chegne Eu Joe (alias. Cooties)
-* Age  : 21
-
-* Participations:
-	* BountyCon 2019 - Student Participant 
-	* DownUnderCTF 2020 - #10 Global/#2 AU University Team
-	* HTBxUni CTF Quals 2020 - Student Competitor
-	* GCC 2021 Online - Student Participant
-
-* Projects:
-	* Yugen - Discord bot 
-        - Discord.py
-        - Image recognition (WIP)
-	* Chess Programming
-        - Board Representation (WIP)
-    * Server/Client across unreliable networks
-        - C multi-threaded client/server
-        - FEC + Interleaving 
+* Name : Chegne Eu Joe (alias. ChaoticCooties/Cooties)
 
 * Academics:
 	* University of Queensland
-		* Bachelor's of Computer Science (Machine Learning)
-			* 2020 - Current
+    * Master's of Computer Science
+      * 2023 - Current
+		* Bachelor's of Computer Science
+			* 2020 - 2022
     * Asia Pacific University
-        * Diploma in IT with specialism in Software Engineering
+        * Diploma in IT, Software Engineering
             * 2017 - 2019
 
-* Job History:
+* Job Experience:
+  * Bugcrowd
+    * Security Consultant - 2021 - Current
+  * Freelance
+    * Content Creator - 2022 - Current
+  * University of Queensland
+    * Academic Tutor - 2022 -2023
+    * Research Assistant - 2021 - 2022
 	* Malaysian Parkinsons' Disease Association
 		* Full-stack Web Development - 2019
 
+* CTF Participations:
+	* BountyCon 2019 - Student Participant 
+	* DownUnderCTF 2020 - #2 AU University Team
+	* DownUnderCTF 2021 - #4 AU University Team
+	* Global Cybersecurity Camp 2021 - Student Participant
 
-
+* Publications:
+  * [Detecting Contradictions from IoT Protocol Specification Documents Based on Neural Generated Knowledge Graph (NRFCKG)](https://linkinghub.elsevier.com/retrieve/pii/S0019057823001945)
