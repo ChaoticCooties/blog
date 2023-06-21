@@ -24,8 +24,8 @@ paginate     = 10
   sectionPagesMenu = "main"
 
   # Metadata mostly used in document's head
-  description = "Cooties' blog"
-  keywords = "homepage, blog"
+  description = "Portfolio - Technical Guides, Retrospectives"
+  keywords = "homepage, blog, cooties, chegne, eu joe"
   images = [""]
 
   # Default theme "light" or "dark"
