@@ -1,4 +1,4 @@
-## Blog [0x4.dev](https://0x4.dev)
+## [Blog](https://cooties.io)
 
 ## Tech stack
 - Hosted on Netlify w/ CI/CD
