@@ -2,4 +2,4 @@
 title: Cybersecurity
 ---
 
-CTF Writeups, OSCP notes etc.
+CTF Writeups, Techniques, Reflections
